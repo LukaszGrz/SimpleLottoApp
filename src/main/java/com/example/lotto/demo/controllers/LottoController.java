@@ -18,7 +18,6 @@ public class LottoController {
         while (set.size() != 6){
                set.add(random.nextInt(49)+1 );
         }
-
         modelMap.put("numer",set);
         return "";
     }
