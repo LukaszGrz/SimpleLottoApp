@@ -20,6 +20,6 @@ public class LottoController {
         }
 
         modelMap.put("numer",set);
-        return "Hello";
+        return "";
     }
 }
